@@ -1,1 +1,7 @@
+---------------------------------------------------------------------------------------------------------------------------
+BottomSheetDialog:-
 
+To support full width of dialog use:-
+window.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT)
+
+Ques:- Why val is used in lazy creation of variable instead of var?
