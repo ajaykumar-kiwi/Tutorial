@@ -16,10 +16,6 @@ Cache - 1 Memorycache (LruCache) -  while in the background it might be killed
 
 Note: A ContentProvider might be a more appropriate place to store cached images if they are accessed more frequently, for example in an image gallery application.
 
------------------------------------------------------
-
-
-
 
 
 
