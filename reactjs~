@@ -7,8 +7,6 @@ Hooks work side-by-side with existing code.
 React provides a few built-in Hooks like useState, useEffect
 
 A Hook is a special function that lets you “hook into” React features. For example, useState is a Hook that lets you add React state to function components. We’ll learn other Hooks later. If you write a function component and realize you need to add some state to it, previously you had to convert it to a class. Now you can use a Hook inside the existing function component. (function component)
-
-What does useState return? It returns a pair of values: the current state and a function that updates it.
 ---------------------------------------------------------------
 Ahead-of-time compilation - (AOT compilation)
 
