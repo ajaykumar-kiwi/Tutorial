@@ -18,6 +18,13 @@ Note: A ContentProvider might be a more appropriate place to store cached images
 
 -----------------------------------------------------
 
+ViewPager- getItemPosition(). If for a child view this method returns POSITION_NONE, the ViewPager understands that the view has been deleted, calling the destroyItem(), and removing this view
+So this approach is wrong if items count is too high.
+
+approach is to use the setTag() method for any instantiated view in the instantiateItem() method. So when you want to change the data or invalidate the view that you need, you can call the findViewWithTag() method on the ViewPager to retrieve the previously instantiated view and modify/use it as you want without having to delete/create a new view each time you want to update some value.
+
+----------------------------------------------------------
+
 
 
 
