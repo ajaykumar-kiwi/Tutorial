@@ -1,1 +1,22 @@
+Object:- An object is an instance of a class. An object has state and behaviour. So state means fields/properties and behaviour means functions. 
+An object stores its state in fields (variables) and exposes its behavior through methods (functions).
+
+Class:- A class is a blueprint for creating objects. A class is a template that describes state and behaviour that the object of its type support.
+
+Inheritance:- Object-oriented programming allows classes to inherit commonly used state and behavior from other classes. In the Java programming language, 
+each class is allowed to have one direct superclass, and each superclass has the potential for an unlimited number of subclasses:
+
+Encapsulation:- Hiding internal state and requiring all interaction to be performed through an object's methods is known as data encapsulation.
+By interacting only with an object's methods, the details of its internal implementation remain hidden from the outside world.
+
+Polymorphism:-
+
+Interface:- an interface is a group of related methods with empty bodies. If your class claims to implement an interface, all methods defined by that 
+interface must appear in its source code before the class will successfully compile.Implementing an interface allows a class to become more formal about 
+the behavior it promises to provide.
+
+Packages:- A package is a namespace for organizing classes and interfaces in a logical manner.
+
+Variables:- An object stores its state in variables.
+Kind of variables :- 
 
